@@ -5,8 +5,8 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         Person p1 = new Person("John", 30, "Male");
-        Person p2 = new Person("Rachel", 25, "Female");
-        Person p3 = new Person("Mia",99,"Female");
+        Person p2 = new Person("sssssssssss", 25, "Female");
+        Person p3 = new Person("asfsdgfsd",99,"Male");
         try {
             FileOutputStream f = new FileOutputStream(new File("myObjects.txt"));
             ObjectOutputStream o = new ObjectOutputStream(f);
