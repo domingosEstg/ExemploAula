@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Person p1 = new Person("John", 30, "Male");
         Person p2 = new Person("Rachel", 25, "Female");
-        Person p3 = new Person("Mia",50,"Female");
+        Person p3 = new Person("Mia",100,"Female");
         try {
             FileOutputStream f = new FileOutputStream(new File("myObjects.txt"));
             ObjectOutputStream o = new ObjectOutputStream(f);
